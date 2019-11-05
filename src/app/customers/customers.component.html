@@ -1,3 +1,4 @@
 <h1>{{ title }}</h1>
 <br />
-<app-customers-list></app-customers-list>
+<!-- Pass data(customers => People Array) from parent(customers.component) to child(customers-list) -->
+<app-customers-list [customers]="people"></app-customers-list>
