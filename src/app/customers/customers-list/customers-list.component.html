@@ -12,8 +12,8 @@
   <tbody>
     <tr *ngFor="let customer of filteredCustomers">
       <td>
-        <!-- Use of custom pipe -->
-        <a>
+        <!-- Get Link of individual customer id / Use of custom pipe -->
+        <a [routerLink]="['/orders', customer.id]">
           {{ customer.name | capitalize }}
         </a>
       </td>
