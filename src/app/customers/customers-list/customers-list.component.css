@@ -1,0 +1,10 @@
+
+th:hover {
+  cursor: pointer;
+  background: rgba(240, 240, 240, 0.425);
+}
+
+th.sortable::after {
+  font-family: FontAwesome;
+  content: "\f0dc";
+}
